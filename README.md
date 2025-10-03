@@ -10,10 +10,10 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 
 ## Dados do Aluno
 
-- **Nome completo:** [Preencher aqui]
-- **Matrícula:** [Preencher aqui]
-- **Curso:** [Preencher aqui]
-- **Turma:** [Preencher aqui]
+- **Nome completo:** Arthur Evangelista da Silva
+- **Matrícula:** 242005196
+- **Curso:** Engenharia
+- **Turma:** 02
 
 ---
 
@@ -42,13 +42,13 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ## Prints da Execução
 
 1. Menu Principal:  
-   ![Inserir Print 1](caminho/do/print1.png)
+   ![Inserir Print 1](https://image2url.com/images/1759520875982-4cf8c759-5501-4041-a892-5c0bf84aef04.png)
 
 2. Cadastro de Médico:  
-   ![Inserir Print 2](caminho/do/print2.png)
+   ![Inserir Print 2](https://image2url.com/images/1759521014534-1a352f5d-d716-4706-b9d6-b6da21460ce3.png).
 
 3. Relatório de ?:  
-   ![Inserir Print 3](caminho/do/print3.png)
+   ![Inserir Print 3](https://image2url.com/images/1759521317384-047b2744-726c-4b33-ad08-68056ab13c77.png)
 
 ---
 
@@ -62,7 +62,7 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 
 ## Contato
 
-- [Opcional: E-mail pessoal do aluno.]
+arthur03655@gmail.com
 
 ---
 
