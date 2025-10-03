@@ -35,3 +35,5 @@ public class Internacao {
                " (" + (ativa ? "Ativa" : "Finalizada") + ") - Custo: R$" + getValorFinal();
     }
 }
+
+
