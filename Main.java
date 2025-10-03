@@ -1,6 +1,7 @@
 package SistemaClinicoJava;
 
 import java.util.*;
+import java.io.File;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+        new File("data").mkdirs();
         carregarDados();
         menuPrincipal();
         salvarDados();
@@ -29,7 +31,7 @@ public class Main {
             System.out.println("5 - Registrar internação");
             System.out.println("6 - Relatórios");
             System.out.println("7 - Salvar e sair");
-            System.out.print("Marque uma opçao");
+            System.out.print("Marque uma opção ");
             op = sc.nextInt();
             sc.nextLine();
 
@@ -40,7 +42,7 @@ public class Main {
                 case 4 -> marcarConsulta();
                 case 5 -> registrarInternacao();
                 case 6 -> Relatorio.gerarRelatorios(pacientes, medicos, consultas, internacoes);
-                case 7 -> System.out.println("Salvando dados e saindo");
+                case 7 -> System.out.println("Salvando dados e saindo...");
                 default -> System.out.println("Opção não existe");
             }
 
@@ -50,15 +52,15 @@ public class Main {
     static void cadastrarPaciente() {
         System.out.print("Nome: ");
         String nome = sc.nextLine();
-        System.out.print("cpf: ");
+        System.out.print("CPF: ");
         String cpf = sc.nextLine();
-        System.out.print("idade: ");
+        System.out.print("Idade: ");
         int idade = sc.nextInt();
         sc.nextLine();
         System.out.print("Telefone: ");
         String telefone = sc.nextLine();
 
-        System.out.print("Possuí plano de saúde? (sim/não): ");
+        System.out.print("Possui plano de saúde? (sim/não): ");
         String resp = sc.nextLine().trim().toUpperCase();
         if (resp.equals("S")) {
             System.out.println("Selecione o plano:");
@@ -100,17 +102,17 @@ public class Main {
 
     static void marcarConsulta() {
         if (pacientes.isEmpty() || medicos.isEmpty()) {
-            System.out.println("Cadastre pacientes e médico");
+            System.out.println("Cadastre pacientes e médicos");
             return;
         }
-        System.out.print("CPF do paciente:");
+        System.out.print("CPF do paciente: ");
         String cpf = sc.nextLine();
         Paciente p = buscarPaciente(cpf);
         if (p == null) {
             System.out.println("Paciente não encontrado");
             return;
         }
-        System.out.println("Médicos disponíveis");
+        System.out.println("Médicos disponíveis:");
         for (int i = 0; i < medicos.size(); i++) {
             System.out.println((i + 1) + " - " + medicos.get(i).getNome() + " (" + medicos.get(i).getEspecialidade() + ")");
         }
