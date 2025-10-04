@@ -1,4 +1,3 @@
-package SistemaClinicoJava;
 
 public class PacienteEspecial extends Paciente {
     private PlanoSaude plano;

@@ -1,4 +1,3 @@
-package SistemaClinicoJava;
 
 public class PlanoSaude {
     private String nome;

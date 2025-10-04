@@ -1,4 +1,3 @@
-package SistemaClinicoJava;
 
 public class Triagem {
     private double altura;

@@ -1,4 +1,3 @@
-package SistemaClinicoJava;
 
 import java.util.List;
 

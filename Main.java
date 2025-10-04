@@ -1,5 +1,3 @@
-package SistemaClinicoJava;
-
 import java.util.*;
 import java.io.File;
 
@@ -60,7 +58,7 @@ public class Main {
         System.out.print("Telefone: ");
         String telefone = sc.nextLine();
 
-        System.out.print("Possui plano de saúde? (sim/não): ");
+        System.out.print("Possui plano de saúde? (s/n): ");
         String resp = sc.nextLine().trim().toUpperCase();
         if (resp.equals("S")) {
             System.out.println("Selecione o plano:");
@@ -126,11 +124,24 @@ public class Main {
             System.out.println("Já existe uma consulta com esse médico nesta data");
             return;
         }
+        System.out.println("\n=== TRIAGEM ===");
+        System.out.print("Altura (cm): ");
+        double altura = sc.nextDouble();
+        System.out.print("Peso (kg): ");
+        double peso = sc.nextDouble();
+        sc.nextLine();
+        System.out.print("Pressão arterial (ex: 120/80): ");
+        String pressao = sc.nextLine();
+        System.out.print("Batimentos (bpm): ");
+        int batimentos = sc.nextInt();
+        System.out.print("Temperatura (°C): ");
+        double temperatura = sc.nextDouble();
+        sc.nextLine();
 
-        Triagem t = new Triagem(1.70, 70, "120/80", 80, 36.5);
+        Triagem t = new Triagem(altura, peso, pressao, batimentos, temperatura);
         Consulta c = new Consulta(p, m, data, t);
         consultas.add(c);
-        System.out.println("Consulta agendada");
+        System.out.println("Consulta agendada com sucesso!");
     }
 
     static void registrarInternacao() {
