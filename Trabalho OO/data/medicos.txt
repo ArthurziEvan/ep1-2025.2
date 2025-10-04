@@ -1,4 +1,0 @@
-Dr Lucas;12308;Ortopedista
-Dr Rafel;12380;Clinico Geral
-Dr Vinicius;98019;Pediatria
-Rayssa;128301;Enfermeira
