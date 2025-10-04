@@ -1,4 +1,3 @@
-package SistemaClinicoJava;
 
 import java.util.ArrayList;
 import java.util.List; 
@@ -32,7 +31,7 @@ public class Agenda {
     public void pesquisar(String cpf) {
         for (Paciente p : pacientes) { 
             if (p.getCpf().equals(cpf)) {
-                System.out.println("--- Paciente Encontrado ---");
+                System.out.println("--- Paciente Encontrado --");
                 System.out.println("Nome: " + p.getNome());
                 System.out.println("Telefone: " + p.getTelefone());
                 System.out.println("Idade: " + p.getIdade());
