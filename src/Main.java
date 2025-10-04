@@ -40,7 +40,7 @@ public class Main {
                 case 4 -> marcarConsulta();
                 case 5 -> registrarInternacao();
                 case 6 -> Relatorio.gerarRelatorios(pacientes, medicos, consultas, internacoes);
-                case 7 -> System.out.println("Salvando dados e saindo...");
+                case 7 -> System.out.println("Salvando dados e saindo");
                 default -> System.out.println("Opção não existe");
             }
 
