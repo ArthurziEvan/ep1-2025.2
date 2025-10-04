@@ -25,16 +25,16 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ## Instruções para Compilação e Execução
 
 1. **Compilação:**  
-   [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
+  Para compilar todas as classes do projeto, acesse o diretório src, onde estão contidos todas as classes e subclasses, as 11 classes inicias são as atualizadas
 
 2. **Execução:**  
-   [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
+Após a compilação, execute o programa principal (Main) com:
 
 3. **Estrutura de Pastas:**  
   A pasta em que está os arquivos finais commitados é a pasta src.
 
 3. **Versão do JAVA utilizada:**  
-   [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
+  Java 24
 
 ---
 ## Vídeo de Demonstração
@@ -56,7 +56,7 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 
 ## Observações (Extras ou Dificuldades)
 
-- [Espaço para o aluno comentar qualquer funcionalidade extra que implementou, dificuldades enfrentadas, ou considerações importantes.]
+Durante o desenvolvimento, uma das principais dificuldades enfrentadas foi a implementação da classe de persistência, outra dificuldade foi na realização dos commits, pois fiz o trabalho em duas pastas diferentes e uma acabou corrompendo, e os gits de uma pasta em um determinado momento ficou sobrescrevendo os gits da outra, em geral é isso, para marcações de consulta eu coloquei a classe Triagem, para saber as especificações do paciente antes de marcar a consulta...
 
 ---
 
