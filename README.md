@@ -31,7 +31,7 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
    [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
 
 3. **Estrutura de Pastas:**  
-   [Descrever aqui as principais pastas do projeto]
+  A pasta em que está os arquivos finais commitados é a pasta src.
 
 3. **Versão do JAVA utilizada:**  
    [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
