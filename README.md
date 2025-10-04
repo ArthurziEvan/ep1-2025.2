@@ -18,7 +18,6 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 - **Curso:** Engenharia
 =======
 - **Curso:** Engenharias
->>>>>>> 146394cd65b686d7afd9b2321998000b8ea6c595
 - **Turma:** 02
 
 ---
@@ -38,34 +37,19 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
    [Descrever aqui como versão do JAVA utilizada no projeto. Sugestão: `java 21`]
 
 ---
-
 ## Vídeo de Demonstração
-
 - [Inserir o link para o vídeo no YouTube/Drive aqui]
-
 ---
-
 ## Prints da Execução
 
 1. Menu Principal:  
-<<<<<<< HEAD
    ![Inserir Print 1](https://image2url.com/images/1759520875982-4cf8c759-5501-4041-a892-5c0bf84aef04.png)
 
 2. Cadastro de Médico:  
    ![Inserir Print 2](https://image2url.com/images/1759521014534-1a352f5d-d716-4706-b9d6-b6da21460ce3.png).
 
 3. Relatório de ?:  
-   ![Inserir Print 3](https://image2url.com/images/1759521317384-047b2744-726c-4b33-ad08-68056ab13c77.png)
-=======
-   ![Inserir Print 1](caminho/do/print1.png)
-
-2. Cadastro de Médico:  
-   ![Inserir Print 2](caminho/do/print2.png)
-
-3. Relatório de ?:  
-   ![Inserir Print 3](caminho/do/print3.png)
->>>>>>> 146394cd65b686d7afd9b2321998000b8ea6c595
-
+   ![Inserir Print 3](https://image2url.com/images/1759521317384-047b2744-726c-4b33-ad08-68056ab13c77.png).
 ---
 
 ---
@@ -77,15 +61,8 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ---
 
 ## Contato
-
-<<<<<<< HEAD
 arthur03655@gmail.com
-=======
-- [Opcional: E-mail pessoal do aluno.]
->>>>>>> 146394cd65b686d7afd9b2321998000b8ea6c595
-
 ---
-
 ### 🖥️ Descrição do Sistema  
 
 O sistema deve simular o funcionamento de um hospital com cadastro de *pacientes, médicos, especialidades, consultas e internações*.  
