@@ -25,7 +25,7 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ## Instruções para Compilação e Execução
 
 1. **Compilação:**  
-  Para compilar todas as classes do projeto, acesse o diretório src, onde estão contidos todas as classes e subclasses, as 11 classes inicias são as atualizadas
+  Para compilar todas as classes do projeto, acesse o diretório src, onde estão contidos todas as classes e subclasses, as 11 classes inicias são as finais
 
 2. **Execução:**  
 Após a compilação, execute o programa principal (Main) com:
