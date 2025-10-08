@@ -38,8 +38,8 @@ Após a compilação, execute o programa principal (Main)
  https://youtu.be/FG5in8o8O0Y
 
 => A herança foi aplicada na classe PacienteEspecial, que herda da classe Paciente;
-=> O polimorfismo foi aplicado ao utilizar objetos de PacienteEspecial no lugar de Paciente, usando métodos sobrescitos de forma dinâmica
-=> O encapsulamento foi aplicado em todas as classes por meio do uso de atributos privados e métodos getters e setters para controlar o acesso aos dados
+ O polimorfismo foi aplicado ao utilizar objetos de PacienteEspecial no lugar de Paciente, usando métodos sobrescitos de forma dinâmica;
+ O encapsulamento foi aplicado em todas as classes por meio do uso de atributos privados e métodos getters e setters para controlar o acesso aos dados
 ---
 ## Prints da Execução
 
