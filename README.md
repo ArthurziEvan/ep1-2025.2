@@ -15,7 +15,6 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 - **Nome completo:** Arthur Evangelista da Silva
 - **Matrícula:** 242005196
 - **Curso:** Engenharia
-- **Curso:** Engenharias
 - **Turma:** 02
 
 ---
