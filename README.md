@@ -136,4 +136,3 @@ O sistema deve simular o funcionamento de um hospital com cadastro de *pacientes
 - Exportação de relatórios em formato .csv ou .pdf.  
 - Implementação de testes unitários para classes principais.  
 - Menu visual.
->>>>>>> eab4167eda6af097cf73443f155d2d830c8cb6f7
