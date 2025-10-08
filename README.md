@@ -48,8 +48,6 @@ Após a compilação, execute o programa principal (Main) com:
 3. Relatório de ?:  
    ![Inserir Print 3](https://image2url.com/images/1759521317384-047b2744-726c-4b33-ad08-68056ab13c77.png).
 
- 4. Diagrama de Classes:  
-   ![Inserir Print 4](https://image2url.com/images/1759956807682-f623e215-3850-4b74-9314-ebd73f3517c8.jpg).
   
 ---
 
