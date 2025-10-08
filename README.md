@@ -22,10 +22,10 @@ Desenvolvimento de um sistema de gerenciamento hospitalar utilizando os conceito
 ## Instruções para Compilação e Execução
 
 1. **Compilação:**  
-  Para compilar todas as classes do projeto, acesse o diretório Trabalho OO, onde estão contidos todas as classes e subclasses finais
+  Para compilar todas as classes do projeto, acesse o diretório Trabalho OO, onde estão contidas todas as classes e subclasses finais.
 
 2. **Execução:**  
-Após a compilação, execute o programa principal (Main) com:
+Após a compilação, execute o programa principal (Main)
 
 3. **Estrutura de Pastas:**  
   A pasta em que está os arquivos finais commitados é a pasta Trabalho OO
